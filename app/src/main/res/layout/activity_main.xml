@@ -7,12 +7,59 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/alatsi"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="@color/aquablue"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/josefin_sans_thin"
+        android:gravity="center"
+        android:text="@string/tnc"
+        android:textColorLink="@color/aquablue"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:fontFamily="@font/alatsi"
+        android:hint="@string/emailhint"
+        android:inputType="textPersonName"
+        android:textColor="@color/grey"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:fontFamily="@font/alatsi"
+        android:hint="@string/passhint"
+        android:inputType="textPassword"
+        android:textColor="@color/grey"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="368dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
