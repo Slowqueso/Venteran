@@ -24,7 +24,7 @@
         android:id="@+id/textView2"
         android:layout_width="233dp"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/josefin_sans_thin"
+        android:fontFamily="@font/josefin_sans_bold"
         android:gravity="center"
         android:text="@string/tnc"
         android:textColorLink="@color/aquablue"

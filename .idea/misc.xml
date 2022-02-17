@@ -4,8 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Sies Notes/SEM 4/Project/Android/Venteran/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
-        <entry key="..\:/Sies Notes/SEM 4/Project/Android/Venteran/app/src/main/res/layout/activity_registration.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/Aditya/Desktop/AD/Venteran/app/src/main/res/layout/activity_main.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/Mohit Divya/AndroidStudioProjects/Venteran/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Mohit Divya/AndroidStudioProjects/Venteran/app/src/main/res/layout/activity_registration.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
@@ -14,5 +15,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.25416666666666665" />
+      </ProjectState>
+    </option>
   </component>
 </project>
