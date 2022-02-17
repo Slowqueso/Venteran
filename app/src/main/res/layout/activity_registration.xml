@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/alatsi"
+        android:gravity="center"
+        android:text="@string/register"
+        android:textColor="@color/aquablue"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/tnc"
+        android:textColorLink="@color/aquablue"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="98dp" />
+
+
+    <EditText
+        android:id="@+id/reg_user"
+        android:layout_width="331dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:fontFamily="@font/alatsi"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:textColor="@color/grey"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <EditText
+        android:id="@+id/reg_email"
+        android:layout_width="331dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:fontFamily="@font/alatsi"
+        android:hint="@string/emailhint"
+        android:inputType="textPersonName"
+        android:textColor="@color/grey"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <EditText
+        android:id="@+id/reg_pass"
+        android:layout_width="331dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:fontFamily="@font/alatsi"
+        android:hint="@string/passhint"
+        android:inputType="textPassword"
+        android:textColor="@color/grey"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <EditText
+        android:id="@+id/reg_confirm"
+        android:layout_width="331dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:fontFamily="@font/alatsi"
+        android:hint="@string/confirm"
+        android:inputType="textPassword"
+        android:textColor="@color/grey"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <EditText
+        android:id="@+id/reg_mobile"
+        android:layout_width="331dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:fontFamily="@font/alatsi"
+        android:hint="@string/mobile"
+        android:inputType="textPersonName"
+        android:textColor="@color/grey"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="416dp" />
+
+
+    <Button
+        android:id="@+id/regbtn"
+        android:layout_width="331sp"
+        android:layout_height="52sp"
+        android:gravity="center"
+        android:text="@string/register"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        app:backgroundTint="@color/aquablue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="533dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

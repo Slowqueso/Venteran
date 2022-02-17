@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">Venteran</string>
     <string name="login">Login</string>
+    <string name="register">Register</string>
     <string name="tnc">By Registering in you are agreeing our <a href="">Term and privacy policy</a></string>
     <string name="emailhint">Email Address</string>
+    <string name="username">Username</string>
     <string name="passhint">Password</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="confirm">Confirm Password</string>
     <string name="rempass"><a href="">Remember Password</a></string>
     <string name="forgorpass"><a href="">Forgot Password?</a></string>
     <string name="loginbtn">Login</string>
