@@ -8,7 +8,6 @@
     <string name="passhint">Password</string>
     <string name="mobile">Mobile Number</string>
     <string name="confirm">Confirm Password</string>
-    <string name="rempass"><a href="">Remember Password</a></string>
     <string name="forgorpass"><a href="">Forgot Password?</a></string>
     <string name="loginbtn">Login</string>
 </resources>
