@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "181311778487",
+    "project_id": "venteran-56fbc",
+    "storage_bucket": "venteran-56fbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181311778487:android:23965f2e26b205e787a732",
+        "android_client_info": {
+          "package_name": "com.example.venteran"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181311778487-mst502191q7jfp589h0entmkcdtvpfn5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.venteran",
+            "certificate_hash": "cfc7544412f8d4cbe00b4f19034d0ff3e511397c"
+          }
+        },
+        {
+          "client_id": "181311778487-35oi2n3mbcb7fao95gac7rdieip7ii93.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqX9F9ODtaOYpCGySHemjZbzUE8yyEmhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181311778487-35oi2n3mbcb7fao95gac7rdieip7ii93.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
