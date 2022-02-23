@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Venteran">
         <activity
+            android:name=".specificchat"
+            android:exported="false" />
+        <activity
             android:name=".Registration"
             android:exported="false" />
         <activity

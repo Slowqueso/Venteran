@@ -4,13 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Sies Notes/SEM 4/Project/Android/Venteran/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
-        <entry key="..\:/Users/Aditya/Desktop/AD/Venteran/app/src/main/res/drawable/ic_footer.xml" value="0.13333333333333333" />
-        <entry key="..\:/Users/Aditya/Desktop/AD/Venteran/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14635416666666667" />
-        <entry key="..\:/Users/Aditya/Desktop/AD/Venteran/app/src/main/res/font/alatsi.xml" value="0.284375" />
         <entry key="..\:/Users/Aditya/Desktop/AD/Venteran/app/src/main/res/layout/activity_main.xml" value="0.17708333333333334" />
-        <entry key="..\:/Users/Aditya/Desktop/AD/Venteran/app/src/main/res/layout/activity_registration.xml" value="0.22323462414578588" />
+        <entry key="..\:/Users/Mohit Divya/AndroidStudioProjects/Venteran/app/src/main/res/drawable/ic_footer.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mohit Divya/AndroidStudioProjects/Venteran/app/src/main/res/layout/activity_login.xml" value="0.291967044284243" />
         <entry key="..\:/Users/Mohit Divya/AndroidStudioProjects/Venteran/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Mohit Divya/AndroidStudioProjects/Venteran/app/src/main/res/layout/activity_registration.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Mohit Divya/AndroidStudioProjects/Venteran/app/src/main/res/layout/activity_specificchat.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
@@ -23,7 +22,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.25416666666666665" />
+        <option name="scale" value="0.291967044284243" />
       </ProjectState>
     </option>
   </component>
