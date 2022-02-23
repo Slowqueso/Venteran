@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="aquablue">#0386D0</color>
     <color name="grey">#A6A6A6</color>
+    <color name="chatbkgrd">E5E5E5</color>
 </resources>
