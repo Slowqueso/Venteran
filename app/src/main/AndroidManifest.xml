@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Venteran">
         <activity
+            android:name=".setProfile"
+            android:exported="false" />
+        <activity
+            android:name=".otpAuthentication"
+            android:exported="false" />
+        <activity
             android:name=".Registration"
             android:exported="false" />
         <activity

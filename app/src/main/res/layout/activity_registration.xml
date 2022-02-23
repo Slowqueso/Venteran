@@ -66,7 +66,7 @@
         android:ems="10"
         android:fontFamily="@font/alatsi"
         android:hint="@string/emailhint"
-        android:inputType="textPersonName"
+        android:inputType="textEmailAddress"
         android:textColor="@color/grey"
         android:textSize="17sp"
         app:layout_constraintBottom_toTopOf="@+id/reg_pass"
@@ -108,22 +108,36 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/reg_pass" />
 
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/ccp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:ccp_countryPreference="us,in"
+        app:layout_constraintBottom_toTopOf="@+id/regbtn"
+        app:layout_constraintEnd_toStartOf="@+id/reg_mobile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reg_confirm"
+        app:ccp_areaCodeDetectedCountry="true"
+        app:ccp_autoDetectCountry="true"
+        />
+
     <EditText
         android:id="@+id/reg_mobile"
-        android:layout_width="331dp"
+        android:layout_width="250dp"
         android:layout_height="52dp"
-        android:layout_marginTop="2dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="39dp"
         android:ems="10"
         android:fontFamily="@font/alatsi"
         android:hint="@string/mobile"
-        android:inputType="textPersonName"
+        android:inputType="phone"
         android:textColor="@color/grey"
         android:textSize="17sp"
         app:layout_constraintBottom_toTopOf="@+id/regbtn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ccp"
         app:layout_constraintTop_toBottomOf="@+id/reg_confirm" />
+
 
 
     <Button
